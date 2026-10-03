@@ -82,31 +82,32 @@
 3. **Run Application**:
    - Use the `app.run(debug=True)` method to start the Flask server with debugging enabled if the script is run as the main program.
 
-   ## PROJECT - 6 : Blog Website (FLASK)
+---
+
+## PROJECT - 6 : Blog Website (FLASK)
 
 ## Algorithm
 
-1. **Import Required Libraries:**
+1. **Import Required Libraries**:
    - Import `Flask` and `render_template` from the Flask framework.
 
-2. **Initialize Flask Application:**
+2. **Initialize Flask Application**:
    - Create an instance of the `Flask` application.
 
-3. **Define Routes:**
-   - **Root Route (`/`):**
+3. **Define Routes**:
+   - **Root Route (`/`)**:
      - Render the `index.html` template.
-   - **About Route (`/about`):**
+   - **About Route (`/about`)**:
      - Render the `about.html` template.
-   - **Contact Route (`/contact`):**
+   - **Contact Route (`/contact`)**:
      - Render the `contact.html` template.
-   - **Post Route (`/post`):**
+   - **Post Route (`/post`)**:
      - Render the `post.html` template.
 
-4. **Use Static Files:**
+4. **Use Static Files**:
    - Store CSS, JavaScript, and images inside the `static` folder.
    - Use `url_for()` to connect the static files with the HTML templates.
 
-5. **Run the Application:**
+5. **Run the Application**:
    - Check if the script is run directly (i.e., `__name__ == "__main__"`).
    - Start the Flask development server using `app.run(debug=True)`.
-
