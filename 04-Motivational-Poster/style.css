@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.poster {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.poster img {
+    width: 100%;
+    border: 5px solid yellow;
+}
+
+h1 {
+    color: yellow;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
