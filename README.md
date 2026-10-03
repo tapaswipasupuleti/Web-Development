@@ -52,18 +52,12 @@
 
 ### Algorithm
 
-1. Start by creating an HTML document.
-2. Set the webpage title as "Kalam Motivational Poster".
-3. Connect the external CSS file using the `<link>` tag.
-4. Create a `<div>` with the class name "poster".
-5. Add an image of Dr. A. P. J. Abdul Kalam.
-6. Add the motivational heading "DREAM, DREAM, DREAM".
-7. Add a motivational paragraph below the heading.
-8. Create a CSS file to style the poster.
-9. Set the webpage background color to black.
-10. Center-align the poster content.
-11. Set the poster width to 600px and add margin.
-12. Set the image width to 100% and add a yellow border.
-13. Style the heading with yellow color and a font size of 40px.
-14. Style the paragraph with white color and a font size of 20px.
-15. End.
+1. Create an HTML page.
+2. Add Abdul Kalam's image.
+3. Add a motivational heading.
+4. Add a motivational quote.
+5. Connect CSS file.
+6. Set black background.
+7. Add yellow heading and border.
+8. Add white quote text.
+9. End.
