@@ -1,4 +1,4 @@
-# Web-Development-Mini-Projects - TOTAL (32)
+# Web-Development-Mini-Projects 
 
 ## PROJECT - 1 : Best Places Webpage (HTML)
 
@@ -29,3 +29,21 @@
 8. **Add** a `<p>` paragraph describing the party location.
 9. **Insert** an `<a>` tag to provide a link to the party location on Google Maps.
 10. **End** the document.
+
+## Project 3 – Color Learning Webpage
+
+### Algorithm
+
+1. Start by creating an HTML document.
+2. Set the webpage title as "Color Learning".
+3. Connect the external CSS file using the `<link>` tag.
+4. Add a main heading "Learn Colors".
+5. Create headings for different colors such as Red, Blue, Green, Yellow, and Purple.
+6. Assign unique IDs and a common class to the color headings.
+7. Add an image for each color.
+8. Create a CSS file to style the webpage.
+9. Use the class selector to apply common styling to all color headings.
+10. Use ID selectors to apply different colors to each heading.
+11. Set the width and height of all images to 200px.
+12. Align the webpage content to the center.
+13. End.
