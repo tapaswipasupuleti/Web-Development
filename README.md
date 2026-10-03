@@ -111,3 +111,44 @@
 5. **Run the Application**:
    - Check if the script is run directly (i.e., `__name__ == "__main__"`).
    - Start the Flask development server using `app.run(debug=True)`.
+
+   ---
+
+## PROJECT - 7 : To-Do List Web App (HTML, CSS, JS)
+
+A simple To-Do List web application built using HTML, CSS, and JavaScript.
+
+### Features
+
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Save tasks using Local Storage
+- Press Enter to add a task
+- Responsive dark-themed interface
+
+### Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- DOM Manipulation
+- Local Storage
+
+### Algorithm
+
+1. **Start** by creating the HTML structure with an input field, button, and task list.
+2. **Style** the application using CSS.
+3. **Select** the input, button, and task list using JavaScript.
+4. **Add Task**:
+   - Get the task entered by the user.
+   - Create a new task object.
+   - Add it to the task list.
+5. **Complete Task**:
+   - Toggle the `completed` class when a task is clicked.
+6. **Delete Task**:
+   - Remove the selected task from the list.
+7. **Use Local Storage**:
+   - Store tasks in `localStorage`.
+   - Retrieve tasks when the page loads.
+8. **End** the application.
