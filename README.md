@@ -66,3 +66,47 @@
 12. **Set** the `<h1>` color to yellow and its font size to 40px.
 13. **Set** the `<p>` color to white and its font size to 20px.
 14. **End** the document.
+
+## PROJECT - 5 : Name Card Webpage (FLASK)
+
+## Algorithm
+
+1. **Initialize Flask Application**:
+   - Import the `Flask` class from the Flask package.
+   - Create an instance of the `Flask` application.
+
+2. **Define Route**:
+   - Set up the root URL route (`'/'`) with a function `greet()`.
+   - Use the `render_template` function to return the `index.html` file when the route is accessed.
+
+3. **Run Application**:
+   - Use the `app.run(debug=True)` method to start the Flask server with debugging enabled if the script is run as the main program.
+
+   ## PROJECT - 6 : Blog Website (FLASK)
+
+## Algorithm
+
+1. **Import Required Libraries:**
+   - Import `Flask` and `render_template` from the Flask framework.
+
+2. **Initialize Flask Application:**
+   - Create an instance of the `Flask` application.
+
+3. **Define Routes:**
+   - **Root Route (`/`):**
+     - Render the `index.html` template.
+   - **About Route (`/about`):**
+     - Render the `about.html` template.
+   - **Contact Route (`/contact`):**
+     - Render the `contact.html` template.
+   - **Post Route (`/post`):**
+     - Render the `post.html` template.
+
+4. **Use Static Files:**
+   - Store CSS, JavaScript, and images inside the `static` folder.
+   - Use `url_for()` to connect the static files with the HTML templates.
+
+5. **Run the Application:**
+   - Check if the script is run directly (i.e., `__name__ == "__main__"`).
+   - Start the Flask development server using `app.run(debug=True)`.
+
