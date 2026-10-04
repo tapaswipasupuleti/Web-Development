@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Blog</title>
+    <title>Tapaswi's Blog</title>
 
     <link rel="stylesheet"
           href="{{ url_for('static', filename='css/styles.css') }}">
@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <h1>My Blog</h1>
+        <h1>Tapaswi's Blog</h1>
 
         <nav>
             <a href="/">Home</a>
@@ -23,34 +23,55 @@
     </header>
 
     <main>
+
+        <section class="hero">
+            <h2>Welcome to My Blog</h2>
+            <p>
+                A place where I share my learning,
+                experiences and projects.
+            </p>
+        </section>
+
         <h2>Latest Posts</h2>
 
-        <article>
-            <h3>My First Blog Post</h3>
-            <p>
-                Welcome to my first blog post.
-                This website is created using Flask and HTML.
-            </p>
+        <div class="posts">
 
-            <a href="/post">Read More</a>
-        </article>
+            <article class="post">
+                <img src="{{ url_for('static', filename='assets/img/blog1.jpg') }}"
+                     alt="Blog post image">
 
-        <article>
-            <h3>My Learning Journey</h3>
-            <p>
-                I am learning web development by building
-                small projects.
-            </p>
+                <h3>My Web Development Journey</h3>
 
-            <a href="/post">Read More</a>
-        </article>
+                <p>
+                    I started learning web development
+                    by building small projects and
+                    understanding how websites work.
+                </p>
+
+                <a href="/post">Read More</a>
+            </article>
+
+            <article class="post">
+                <img src="{{ url_for('static', filename='assets/img/blog2.jpg') }}"
+                     alt="Learning image">
+
+                <h3>Learning Flask</h3>
+
+                <p>
+                    Flask helped me understand how
+                    Python can be used to create web applications.
+                </p>
+
+                <a href="/post">Read More</a>
+            </article>
+
+        </div>
+
     </main>
 
     <footer>
-        <p>&copy; 2026 My Blog</p>
+        <p>&copy; 2026 Tapaswi's Blog</p>
     </footer>
-
-    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
 
 </body>
 </html>

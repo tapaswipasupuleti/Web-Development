@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About - My Blog</title>
+    <title>About Me</title>
 
     <link rel="stylesheet"
           href="{{ url_for('static', filename='css/styles.css') }}">
@@ -23,13 +23,39 @@
     </header>
 
     <main>
-        <h2>About This Blog</h2>
 
-        <p>
-            This is my personal blog where I share
-            my learning experiences and projects.
-        </p>
+        <section class="about-section">
+
+            <img
+                src="{{ url_for('static', filename='assets/img/profile.jpg') }}"
+                alt="My profile picture"
+                class="profile-image"
+            >
+
+            <div class="about-content">
+                <h2>Hi, I'm Tapaswi 👋</h2>
+
+                <p>
+                    Welcome to my blog. I created this website
+                    to share my learning journey, projects,
+                    experiences and things I discover while
+                    learning technology.
+                </p>
+
+                <p>
+                    I am currently exploring web development,
+                    Python, Flask and other technologies by
+                    building practical projects.
+                </p>
+            </div>
+
+        </section>
+
     </main>
+
+    <footer>
+        <p>&copy; 2026 Tapaswi's Blog</p>
+    </footer>
 
 </body>
 </html>

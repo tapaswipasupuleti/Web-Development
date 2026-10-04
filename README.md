@@ -112,43 +112,37 @@
    - Check if the script is run directly (i.e., `__name__ == "__main__"`).
    - Start the Flask development server using `app.run(debug=True)`.
 
-   ---
+
+Yes — if you want **Project 7 algorithm in the same clean style as Projects 5 and 6**, use this:
 
 ## PROJECT - 7 : To-Do List Web App (HTML, CSS, JS)
 
-A simple To-Do List web application built using HTML, CSS, and JavaScript.
+## Algorithm
 
-### Features
+1. **Create HTML Structure**:
+   - Create a `<div>` container for the To-Do List.
+   - Add an `<input>` field to enter new tasks.
+   - Add an **Add Task** button.
+   - Create an empty `<ul>` element to display tasks.
 
-- Add new tasks
-- Mark tasks as completed
-- Delete tasks
-- Save tasks using Local Storage
-- Press Enter to add a task
-- Responsive dark-themed interface
+2. **Add CSS Styling**:
+   - Style the container, input field, button, and task list.
+   - Add styling for completed tasks.
 
-### Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- DOM Manipulation
-- Local Storage
-
-### Algorithm
-
-1. **Start** by creating the HTML structure with an input field, button, and task list.
-2. **Style** the application using CSS.
-3. **Select** the input, button, and task list using JavaScript.
-4. **Add Task**:
+3. **Add JavaScript Functionality**:
+   - Select the input, button, and task list elements.
+   - Add an event listener to the **Add Task** button.
    - Get the task entered by the user.
-   - Create a new task object.
-   - Add it to the task list.
-5. **Complete Task**:
+   - Create a new `<li>` element and add the task text.
+   - Add the task to the `<ul>` list.
+
+4. **Complete and Delete Tasks**:
    - Toggle the `completed` class when a task is clicked.
-6. **Delete Task**:
-   - Remove the selected task from the list.
-7. **Use Local Storage**:
-   - Store tasks in `localStorage`.
-   - Retrieve tasks when the page loads.
-8. **End** the application.
+   - Add a delete button to each task.
+   - Remove the task when the delete button is clicked.
+
+5. **Use Local Storage**:
+   - Store tasks using `localStorage`.
+   - Retrieve and display saved tasks when the page loads.
+
+6. **End** the application.
