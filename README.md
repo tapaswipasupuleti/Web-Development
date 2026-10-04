@@ -113,7 +113,7 @@
    - Start the Flask development server using `app.run(debug=True)`.
 
 
-Yes — if you want **Project 7 algorithm in the same clean style as Projects 5 and 6**, use this:
+
 
 ## PROJECT - 7 : To-Do List Web App (HTML, CSS, JS)
 
